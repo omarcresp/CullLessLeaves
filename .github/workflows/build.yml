@@ -1,6 +1,6 @@
 name: Build Mod
 
-on: [workflow_dispatch] # Allows you to manually trigger the build button
+on: [push] # Allows you to manually trigger the build button
 
 jobs:
   build:
